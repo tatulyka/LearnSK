@@ -1,46 +1,45 @@
 header {
     background-color: #E06E85;
-    margin-top: 0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-
-    }
-.main {
-    padding: 0px;
-    font-size: 22px;
-    border-bottom: 12px solid #943A4C;
-    min-height: 40px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 38vh;
 }
+.main {    
+    font-size: 22px;   
+    margin-bottom: 0%; 
+    }
 .container {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
 }
 .title {
     color: #ececee;
     padding-left: 50px;
-    
-    
+        
 }
-
 .navigation {
     background-color: #943A4C;
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around;  
+  
 }
 .navigation li {
     display: inline-block;
-    padding: 15px 200px 15px;
+    padding: 5px 30px;
+    margin-left: 30px;
+    margin-right: 30px;
     color: #ececee;
-    font-size: 25px;
+    font-size: 16px;
+    border:2px solid #E06E85;
+    border-radius: 8px;
 }
-
 
 .navigation li a, navigation li a:visited {
     color: #ececee;
     text-decoration: none;
     display: block;
-    
-    
+     
 }
 .navigation li:hover {
     background-color: #E06E85;

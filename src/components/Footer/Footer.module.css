@@ -1,49 +1,20 @@
-header {
+footer {
     background-color: #E06E85;
+    height: 40px;
     margin-top: 0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
 
     }
-.main {
-    padding: 0px;
-    font-size: 22px;
-    border-bottom: 12px solid #943A4C;
-    min-height: 40px;
-}
-.container {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-.title {
+.rights {    
+    font-size: 12px;    
     color: #ececee;
-    padding-left: 50px;
+     
     
-    
-}
 
-.navigation {
-    background-color: #943A4C;
-    display: flex;
-    justify-content: space-around;
-    
-}
-.navigation li {
-    display: inline-block;
-    padding: 15px 200px 15px;
-    color: #ececee;
-    font-size: 25px;
 }
 
 
-.navigation li a, navigation li a:visited {
-    color: #ececee;
-    text-decoration: none;
-    display: block;
-    
-    
-}
-.navigation li:hover {
-    background-color: #E06E85;
-    
-}
 

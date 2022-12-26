@@ -9,18 +9,16 @@ function Header() {
             <div className={styles.container}>
                 <h1 className={styles.title}>LEARN SLOVAK </h1>
             </div>
-        </div>
-        <div className={styles.menu}>
-            <div className={styles.navigation}>
-                <nav>
-                    <ul>
-                        <li><a href=""/>Main</li>
-                        <li><a href=""/>Table</li>
-                        <li><a href=""/>Words</li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+        </div>        
+        <div className={styles.navigation}>
+            <nav>
+                <ul>
+                    <li><a href=""/>main</li>
+                    <li><a href=""/>table</li>
+                    <li><a href=""/>words</li>
+                </ul>
+            </nav>
+        </div>      
       </header>    
           
       
