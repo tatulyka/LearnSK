@@ -1,8 +1,27 @@
 .container {
     margin-top: 0px;
     height: 120vh;
-    background-image: url("./../../../public/assets/csm_D_Kezmarok_jpg5D_f7a798cb62.png");
+    background-image: url("./../../../public/assets/Strbske-Pleso-Slovakia-High-Tatra-Mountains.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    filter: opacity(40%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
+.info {
+   color:  #ffffff;
+   width: 300px;
+   min-height: fit-content;
+   margin-right: 50px;   
+   margin-top: 20px;
+   border:2px solid #36C9C6;
+   border-radius: 8px;
+   padding: 10px;    
+   
+
+
+}
+
