@@ -1,5 +1,9 @@
 import React from "react";
 import styles from './Header.module.css';
+
+
+
+
 //import * as classnames from 'classnames';
 
 function Header() {
@@ -13,9 +17,9 @@ function Header() {
         <div className={styles.navigation}>
             <nav>
                 <ul>
-                    <li><a href=""/>main</li>
-                    <li><a href=""/>table</li>
-                    <li><a href=""/>words</li>
+                    <li><a href="/Main">main</a></li>
+                    <li><a href="/Table">table</a></li>
+                    <li><a href="/Exersize">words</a></li>
                 </ul>
             </nav>
         </div>      
