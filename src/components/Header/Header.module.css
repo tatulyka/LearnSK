@@ -35,6 +35,8 @@ header {
     border-radius: 8px;
 }
 
+
+
 .navigation li a, navigation li a:visited {
     color: #F4F1BB;
     text-decoration: none;
@@ -43,6 +45,12 @@ header {
 }
 .navigation li:hover {
     background-color: #ed6a5a;
+    color: #E6EBE0;
+
     
 }
 
+.navigation li a.activeLink {
+    color: #F4F1BB;
+    
+}

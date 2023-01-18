@@ -1,7 +1,8 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import styles from './Header.module.css';
-
-
+import Main from "../Main/Main";
+import TablePage from "../TablePage/TablePage";
 
 
 //import * as classnames from 'classnames';
@@ -17,9 +18,9 @@ function Header() {
         <div className={styles.navigation}>
             <nav>
                 <ul>
-                    <li><a href="/Main">main</a></li>
-                    <li><a href="/Table">table</a></li>
-                    <li><a href="/Exersize">words</a></li>
+                    <li><NavLink to="/Main" className={styles.activeLink}>main</NavLink></li>
+                    <li><NavLink to="/TablePage" className={styles.activeLink}>table</NavLink></li>
+                    <li><NavLink to="/Exersize" className={styles.activeLink}>words</NavLink></li>
                 </ul>
             </nav>
         </div>      

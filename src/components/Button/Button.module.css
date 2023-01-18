@@ -1,0 +1,25 @@
+.btn {
+    width: 120px;
+    background: #F4F1BB;
+    border-bottom: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px #ed6a5a;
+    transition: .3s;
+    cursor: auto;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 200%;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #ed6a5a;}
+
+.btn:hover {
+        background: #ed6a5a;
+        box-shadow: 0 5px 10px #F4F1BB;
+        transform: translateY(-3px);
+        color: #0b0a0a;
+    
+}
+
+

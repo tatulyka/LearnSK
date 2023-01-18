@@ -1,0 +1,13 @@
+[
+    {"english":"bathroom","theme":"house","slovak":"kúpeľňa", "id": "0"},
+    {"english":"kitchen","theme":"house","slovak":"kuchyňa", "id": "1"},
+    {"english":"closet","theme":"house","slovak":"skriňa", "id": "2"},
+    {"english":"train","theme":"travel","slovak":"vlak", "id": "3"},
+    {"english":"cruise","theme":"travel","slovak":"plavba","id": "4"},
+    {"english":"beach","theme":"travel","slovak":"pláž", "id": "5"},
+    {"english":"border","theme":"travel","slovak":"hranica", "id": "6"},
+    {"english":"wolf","theme":"animal","slovak":"vlk", "id": "7"},
+    {"english":"fox","theme":"animal","slovak":"líška", "id": "8"},
+    {"english":"moose","theme":"animal","slovak":"los", "id": "9"},
+    {"english":"hedgehog","theme":"animal","slovak":"ježko", "id": "10"}
+]

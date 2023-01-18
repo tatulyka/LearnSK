@@ -1,0 +1,13 @@
+.input {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2%;
+
+    border-radius: 5px;
+
+}
+.input:focus {
+        border-color: #E6EBE0;
+        outline: 0;
+        box-shadow: 0 0 0.2rem 0.2rem #F4F1BB;
+    }
