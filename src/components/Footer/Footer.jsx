@@ -3,6 +3,9 @@ import styles from './Footer.module.css';
 //import * as classnames from 'classnames';
 
 function Footer() {
+
+
+  
     return (
       <footer>        
         <div className={styles.rights}>

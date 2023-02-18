@@ -20,7 +20,7 @@ function Header() {
                 <ul>
                     <li><NavLink to="/Main" className={styles.activeLink}>main</NavLink></li>
                     <li><NavLink to="/TablePage" className={styles.activeLink}>table</NavLink></li>
-                    <li><NavLink to="/Exersize" className={styles.activeLink}>words</NavLink></li>
+                    <li><NavLink to="/Exercise" className={styles.activeLink}>words</NavLink></li>
                 </ul>
             </nav>
         </div>      

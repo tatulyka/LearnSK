@@ -37,6 +37,8 @@ function Table({ items, editWords }) {
         editWords(id, valueWord, valueTheme, valueEnglish);
 
     }
+
+   
     return (
 
         <div className={styles.row}>
@@ -46,6 +48,7 @@ function Table({ items, editWords }) {
             <div className={styles.buttons}>
                 {isEdit ? <Button class={styleButton.btn} onButtonClick={saveWords} text='Save' /> : <Button class={styleButton.btn} onButtonClick={returnState} text='Edit' />}
                 {isEdit ? <Button class={styleButton.btn} onButtonClick={returnState} text='Cancel' /> : <Button class={styleButton.btn} onButtonClick="" text='X' />}
+                
 
                
             </div>
