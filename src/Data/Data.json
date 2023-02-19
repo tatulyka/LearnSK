@@ -1,7 +1,7 @@
 [
     {"english":"bathroom","theme":"house","slovak":"kúpeľňa", "picture": "../assets/bathroom.jpg","id": "0"},
     {"english":"kitchen","theme":"house","slovak":"kuchyňa", "picture": "../assets/kitchen.jpg","id": "1"},
-    {"english":"closet","theme":"house","slovak":"skriňa", "picture": "../assets/closet.jpg","id": "2"},
+    {"english":"cupboard","theme":"house","slovak":"skriňa", "picture": "../assets/closet.jpg","id": "2"},
     {"english":"train","theme":"travel","slovak":"vlak", "picture": "../assets/train.jpg","id": "3"},
     {"english":"cruise","theme":"travel","slovak":"plavba","picture": "../assets/cruise.jpg","id": "4"},
     {"english":"beach","theme":"travel","slovak":"pláž", "picture": "../assets/beach.jpg","id": "5"},
