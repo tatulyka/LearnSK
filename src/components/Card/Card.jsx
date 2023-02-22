@@ -13,7 +13,7 @@ export default function Card(props) {
         <div className={styles.card} >
             <div className={styles.about}>
                 <div className={styles.english}>{props.slovak}</div>
-                <div className={styles.picture}><img src = {props.picture} className={styles.img}/></div>
+                <div className={styles.picture}><img src = {props.picture} className={styles.img} alt={props.english}/></div>
             </div>
             <div className={styles.button}>
                 {

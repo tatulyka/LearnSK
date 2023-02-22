@@ -6,6 +6,8 @@ import Button from '../Button/Button';
 import styleBtn from '../Button/Button.module.css';
 
 
+
+
 function Exercise() {
 const [count, setCount] = useState(1);
 
@@ -39,7 +41,8 @@ const next = () => {
          <div className={styles.container}>
             <div className={styles.MainInfo}>
             <Button onButtonClick={previous} class={styleBtn.btnImg} text={<img className={styleBtn.prevArrow} src="/assets/left.png" alt="left" />} />
-               {cards[count - 1]}
+                           {cards[count - 1]}
+                          
             <Button onButtonClick={next} class={styleBtn.btnImg} text={<img className={styleBtn.nextArrow} src="/assets/right.png" alt="right" />} />
            </div>
            <div className={styles.CountCards}>

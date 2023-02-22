@@ -5,7 +5,7 @@
     border-radius: 10px;
     box-shadow: 0 2px 3px #ed6a5a;
     transition: .3s;
-    cursor: auto;
+    cursor: pointer;
     font-size: 15px;
     font-weight: 600;
     line-height: 200%;
@@ -32,4 +32,5 @@
 .prevArrow, .nextArrow {
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
