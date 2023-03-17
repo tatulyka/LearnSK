@@ -1,9 +1,10 @@
 import './App.css';
-import Header from '.././Header/Header'
+import Header from '.././header/Header'
 import Main from '.././Main/Main'
-import Footer from '../Footer/Footer';
+import Footer from '../footer/Footer';
 import TablePage from '../TablePage/TablePage';
-import Exercise from '../Exercise/Exercise';
+import Exercise from '../exercise/Exercise';
+import Notfound from '../notFound/Notfound';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
            <Route path='/Main' element={<Main/>}/>
            <Route path='/TablePage' element={<TablePage/>}/>
            <Route  path='/Exercise' element={<Exercise/>}/>
+           <Route  exact path='/' element={<Main/>}/>
+           <Route  path='*' element={<Notfound/>}/>
           </Routes>      
         </div>
         <Footer />

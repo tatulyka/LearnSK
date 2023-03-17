@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Card.module.css";
-import styleBtn from '../Button/Button.module.css';
+import styleBtn from '../button/Button.module.css';
 
 
 

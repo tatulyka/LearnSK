@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import styles from "./Exercise.module.css";
-import Card from '../Card/Card.jsx';
+import Card from '../card/Card.jsx';
 import data from '../../Data/Data.json';
-import Button from '../Button/Button';
-import styleBtn from '../Button/Button.module.css';
+import Button from '../button/Button';
+import styleBtn from '../button/Button.module.css';
 
 
 

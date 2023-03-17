@@ -2,8 +2,8 @@ import React from 'react';
 import styles from './../TablePage/TablePage.module.css';
 import { useState, useEffect } from 'react';
 import Input from '../Input/Input';
-import Button from '../Button/Button';
-import styleButton from '../Button/Button.module.css';
+import Button from '../button/Button';
+import styleButton from '../button/Button.module.css';
 
 function Table({ items, editWords }) {
     const { id, english, theme, slovak } = items;
