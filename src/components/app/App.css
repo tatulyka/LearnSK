@@ -1,8 +1,9 @@
 .App {
     display: flex;
-    flex-direction: column;
-    
-
+    flex-direction: column;   
 
 }
-
+Header {
+position: sticky;
+/*margin-bottom: 0%;*/
+}

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import styles from "./Exercise.module.css";
+import React, { useState, useRef } from "react";
+import styles from "./Game.module.css";
 import Card from '../card/Card.jsx';
 import data from '../../Data/Data.json';
 import Button from '../button/Button';
@@ -8,8 +8,15 @@ import styleBtn from '../button/Button.module.css';
 
 
 
-function Exercise() {
+function Game() {
 const [count, setCount] = useState(1);
+const [learn, setLearn] = useState(false);
+
+
+const HandleLearned = () => {
+    setLearn(learn + 1);
+  } 
+
 
 const next = () => {
  if (count !== data.length) {
@@ -33,6 +40,7 @@ const next = () => {
              <Card
                 key={item.id}
                 id={item.id}
+                onLearned={HandleLearned}
                 {...item}
            />
         )
@@ -48,9 +56,12 @@ const next = () => {
            <div className={styles.CountCards}>
                <span className={styles.NowCount}>{count}</span>/{cards.length}
             </div>
+            
+                    <div className={styles.learned}>Words learned: {learn}</div>
+                   
         </div>
     );
  }
 
-export default Exercise;
+export default Game;
 

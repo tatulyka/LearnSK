@@ -7,7 +7,9 @@ import styleBtn from '../button/Button.module.css';
 export default function Card(props) {
     const [clicked, setClicked] = useState(props.clicked || false);
     const handleClick = () => {
-        setClicked(true)
+        setClicked(true);
+        props.onLearned();
+        
     }
     return (
         <div className={styles.card} >

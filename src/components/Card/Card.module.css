@@ -1,5 +1,5 @@
 .card {
-    height: 220px;
+    height: 300px;
     width: 35%;
     margin: 3%;
     padding: 3%;
@@ -35,7 +35,7 @@
     }
 
 .picture {
-    margin: 22px auto 10px;
+    margin: 22px auto 15px;
     max-width: 100px;
     height: 100px;
 

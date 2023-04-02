@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './Main.module.css';
+import { NavLink } from "react-router-dom";
 
 
 function Main() {
@@ -13,7 +14,7 @@ function Main() {
                      Vyskúšajte naše bezplatné online kurzy, jazykové kvízy, 
                      cvičenia a zábavné hry.</p>
             </div>
-        <button className={styles.button}>Let's start</button>    
+        <button className={styles.button}><NavLink to="/game" className={styles.link}>Let's start</NavLink></button>    
         </div>
       </main>    
           

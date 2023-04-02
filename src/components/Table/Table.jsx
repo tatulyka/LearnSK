@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './../TablePage/TablePage.module.css';
+import styles from './../tablePage/TablePage.module.css';
 import { useState, useEffect } from 'react';
 import Input from '../Input/Input';
 import Button from '../button/Button';

@@ -6,7 +6,16 @@ header {
     margin: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     max-height: 35vh;
-}
+    width: 100%;}
+
+
+.header_fixed {
+    position: sticky;
+    z-index: 100;
+    left: 0;
+    top: 0;
+  }
+    
 .main {    
     font-size: 18px;   
     margin-bottom: 0%; 
