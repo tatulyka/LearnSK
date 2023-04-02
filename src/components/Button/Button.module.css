@@ -15,7 +15,7 @@
     color: #ed6a5a;}
 
 .btn:hover {
-        background: #ed6a5a;
+        
         box-shadow: 0 5px 10px #F4F1BB;
         transform: translateY(-3px);
         color: #0b0a0a;
@@ -34,3 +34,13 @@
     height: 40px;
     cursor: pointer;
 }
+
+.btn:focus {
+    outline: none;
+    background:  #36C9C6;
+    box-shadow: 0 7px 12px  #E6EBE0;
+    transform: translateY(-3px);
+    
+
+
+}  

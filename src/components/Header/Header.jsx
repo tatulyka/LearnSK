@@ -29,7 +29,7 @@ function Header() {
       <header>
         <div className={styles.main}>
             <div className={styles.container}>
-                <h1 className={styles.title}>LEARN SLOVAK </h1>
+                <h1><NavLink to="/main" className={styles.title}>LEARN SLOVAK</NavLink></h1>
             </div>
         </div>        
         <div className={styles.navigation}>
