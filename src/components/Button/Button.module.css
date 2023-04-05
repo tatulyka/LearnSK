@@ -1,7 +1,7 @@
 .btn {
     width: 120px;
     background: #F4F1BB;
-    border-bottom: none;
+    border: none;
     border-radius: 10px;
     box-shadow: 0 2px 3px #ed6a5a;
     transition: .3s;
@@ -12,13 +12,15 @@
     text-align: center;
     letter-spacing: 2px;
     text-decoration: none;
-    color: #ed6a5a;}
+    color: #ed6a5a;
+    margin: 2px;}
 
 .btn:hover {
         
         box-shadow: 0 5px 10px #F4F1BB;
-        transform: translateY(-3px);
+        transform: translateY(-2px);
         color: #0b0a0a;
+        border: 2px solid #ed6a5a;
     
 }
 .btnImg{
