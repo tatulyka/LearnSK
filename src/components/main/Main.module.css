@@ -1,0 +1,51 @@
+.container {
+    margin-top: 0px;
+    height: 120vh;
+    background-image: url("./../../../public/assets/Strbske-Pleso-Slovakia-High-Tatra-Mountains.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+.info {
+   color:  #ffffff;
+   font-weight: bolder;
+   font-size: 20px;
+   width: 400px;
+   margin-left: 30px;
+   min-height: fit-content;
+   margin-top: 50px;
+   border:7px solid #36C9C6;
+   border-radius: 8px;
+   padding: 20px;    
+   align-self: center;
+   
+   
+
+
+}
+.button {
+    width: 200px;
+    margin: 30px 150px;
+    height: 50px;
+    
+    background-color: #ed6a5a;
+    border:2px solid #ed6a5a;
+    border-radius: 8px;
+    text-decoration: none;
+    align-self: center;
+
+
+}
+.link {
+    color: #F4F1BB;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}

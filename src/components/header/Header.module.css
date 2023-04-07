@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+header {
+    background-color: #F4F1BB;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-height: 35vh;
+    width: 100%;}
+
+
+.header_fixed {
+    position: sticky;
+    z-index: 100;
+    left: 0;
+    top: 0;
+  }
+    
+.main {    
+    font-size: 18px;   
+    margin-bottom: 0%; 
+    }
+.container {
+    padding-top: 7px;
+    padding-bottom: 7px;
+   
+    
+}
+.title {
+    color: #ed6a5a;
+    padding-left: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    letter-spacing: 6px;
+    text-decoration: none;
+    
+    
+        
+}
+.navigation {
+    background-color: #36C9C6;
+    display: flex;
+    justify-content: space-around;  
+  
+}
+.navigation li {
+    display: inline-block;
+    padding: 5px 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #F4F1BB;
+    font-size: 16px;
+    border:2px solid #ed6a5a;
+    border-radius: 8px;
+}
+
+
+
+.navigation li a {
+    color: #F4F1BB;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+     
+}
+.navigation li:hover {
+    background-color: #ed6a5a;
+    color: #E6EBE0;
+
+    
+}
+
+.activeLink {
+    color: #F4F1BB;
+    width: 80px;
+   
+}
