@@ -10,11 +10,18 @@ function Table({ items, editWords }) {
     const [isEdit, setIsEdit] = useState(false);
 
     const returnState = () => setIsEdit(!isEdit);
+   
+    const [isEmpty, setIsEmpty] = useState({
+        valueWord: false,
+        valueTheme: false,
+        valueEnglish: false,
+    });
 
     const [valueWord, setValueWord] = useState('');
     const [valueTheme, setValueTheme] = useState('');
     const [valueEnglish, setValueTranslate] = useState('');
 
+    
 
     useEffect(() => {
         setValueWord(english)
@@ -30,21 +37,35 @@ function Table({ items, editWords }) {
     }
     function handleClickTranslate(e) {
         setValueTranslate(e.target.value)
-    }
+    };
 
+       
     function saveWords() {
-        returnState();
-        editWords(id, valueWord, valueTheme, valueEnglish);
+        
+        if (
+            valueTheme === '' ||
+            valueWord === '' ||     
+            valueEnglish === '' 
+        ) {           
+          alert('Error: Please fill all the fields');  
+          setIsEmpty();
+          }
+          else {  
+        console.log('form parameters:', valueTheme, valueWord, valueEnglish);    
+        returnState();   
+        setIsEmpty(false)
+        editWords(id, valueWord, valueTheme, valueEnglish);}
 
-    }
+          };   
 
-   
+    
+       
     return (
 
         <div className={styles.row}>
-            <div className={styles.row__word}> {isEdit ? <Input value={valueTheme} function={handleClickTheme} /> : theme} </div>
-            <div className={styles.row__word}> {isEdit ? <Input value={valueWord} function={handleClickWord} /> : english } </div>
-            <div className={styles.row__word}> {isEdit ? <Input value={valueEnglish} function={handleClickTranslate} /> : slovak} </div>
+            <div className={styles.row__word}> {isEdit ? <Input class={(isEmpty) && 'error'} value={valueTheme} function={handleClickTheme}/> : theme} </div>
+            <div className={styles.row__word}> {isEdit ? <Input class={(isEmpty.valueWord) && 'error'}value={valueWord} function={handleClickWord} /> : english } </div>
+            <div className={styles.row__word}> {isEdit ? <Input class={(isEmpty.valueEnglish) && 'error'}value={valueEnglish} function={handleClickTranslate} /> : slovak} </div>
             <div className={styles.buttons}>
                 {isEdit ? <Button class={styleButton.btn} onButtonClick={saveWords} text='Save' /> : <Button class={styleButton.btn} onButtonClick={returnState} text='Edit' />}
                 {isEdit ? <Button class={styleButton.btn} onButtonClick={returnState} text='Cancel' /> : <Button class={styleButton.btn} onButtonClick="" text='X' />}
